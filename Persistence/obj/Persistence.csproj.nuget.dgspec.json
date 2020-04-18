@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/andrewjoung/Desktop/dotnet/Reactivities/Persistence/Persistence.csproj": {}
+  },
+  "projects": {
+    "/Users/andrewjoung/Desktop/dotnet/Reactivities/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/andrewjoung/Desktop/dotnet/Reactivities/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/andrewjoung/Desktop/dotnet/Reactivities/Domain/Domain.csproj",
+        "packagesPath": "/Users/andrewjoung/.nuget/packages/",
+        "outputPath": "/Users/andrewjoung/Desktop/dotnet/Reactivities/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/andrewjoung/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/andrewjoung/Desktop/dotnet/Reactivities/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/andrewjoung/Desktop/dotnet/Reactivities/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/Users/andrewjoung/Desktop/dotnet/Reactivities/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/andrewjoung/.nuget/packages/",
+        "outputPath": "/Users/andrewjoung/Desktop/dotnet/Reactivities/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/andrewjoung/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/andrewjoung/Desktop/dotnet/Reactivities/Domain/Domain.csproj": {
+                "projectPath": "/Users/andrewjoung/Desktop/dotnet/Reactivities/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
