@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pV0Ad9qmyfBrcpedvu1wBIA87sOrlWN390HNnZiothBx/2p+pTxUFu96kc89Sw/ow/LDmUBauvvDfJ9SkkhvFg==",
+  "dgSpecHash": "KG+o9rE7ACif0qYELqqoUCX4TwBXs9snmg3YsJxOEGZPqkeG+7cDu9nbWER3EgUf0+y0ux2umFyW5bqa1OYUaA==",
   "success": true,
   "projectFilePath": "/Users/andrewjoung/Desktop/dotnet/Reactivities/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/andrewjoung/.nuget/packages/mediatr/7.0.0/mediatr.7.0.0.nupkg.sha512",
+    "/Users/andrewjoung/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/7.0.0/mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/andrewjoung/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "/Users/andrewjoung/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/Users/andrewjoung/.nuget/packages/microsoft.data.sqlite.core/3.1.3/microsoft.data.sqlite.core.3.1.3.nupkg.sha512",

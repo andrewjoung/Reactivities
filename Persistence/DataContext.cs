@@ -1,5 +1,4 @@
-﻿using System;
-using Domain;
+﻿using Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace Persistence
@@ -11,7 +10,11 @@ namespace Persistence
 
         }
 
+        // For the Value entity we created in Domain
         public DbSet<Value> Values { get; set; }
+
+        // For the Activity Entity we created in DOmain
+        public DbSet<Activity> Activities { get; set; }
 
         // Configure our entities (Values) as migration is being created in API 
         // Override from DBContext

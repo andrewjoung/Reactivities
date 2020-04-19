@@ -1,9 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,7 +26,17 @@ namespace API
                 try
                 {
                     var context = services.GetRequiredService<DataContext>();
+                    // We get our data context from persistence that initalizes our two entities
+                    // We then migrate them and actually add them to the database as tables
+                    // Context referes to our database??? 
                     context.Database.Migrate();
+
+                    // Here we grab seeds from persistence and call the SeedData method to populate the database
+                    // It is passed in the context that we created 
+                    // Inside SeedData it checks to see if there are any entries and if not it creates a new List and few new Activities
+                    // And then calls the context.Activities (the table) .AddRange(list)
+                    // And then context.SaveChanges
+                    Seed.SeedData(context);
                 }
                 catch (Exception e)
                 {

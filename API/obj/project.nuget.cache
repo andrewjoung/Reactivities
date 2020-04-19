@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2sBHSFzMhY9RUjG60Ms+NsDzjAEK75Q7beOE7oqPUjN1NXSf873aV2IV0QXfSpPk+TrWTJTvbuEtU6YMzIHtzg==",
+  "dgSpecHash": "1AU/uJPMiDNm8Q7mCqP0edlVkzbn1DHqr7cciBWos2RSUZWw4de1w+DNFKloQ9xK+behgbvpI3L1wnEsgo1j4Q==",
   "success": true,
   "projectFilePath": "/Users/andrewjoung/Desktop/dotnet/Reactivities/API/API.csproj",
   "expectedPackageFiles": [
+    "/Users/andrewjoung/.nuget/packages/mediatr/7.0.0/mediatr.7.0.0.nupkg.sha512",
+    "/Users/andrewjoung/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/7.0.0/mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/andrewjoung/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "/Users/andrewjoung/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/Users/andrewjoung/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
